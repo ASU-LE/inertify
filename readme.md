@@ -9,13 +9,13 @@
 ### Express:
 
 ```bash
-npm i @inertify/core @inertify/express
+npm i @asu-le/inertify-core @asu-le/inertify-express
 ```
 
 ### Fastify:
 
 ```bash
-npm i @inertify/core @inertify/fastify
+npm i @asu-le/inertify-core @asu-le/inertify-fastify
 ```
 
 ### Nest:
@@ -23,7 +23,7 @@ npm i @inertify/core @inertify/fastify
 There is an additional package for Nest.js.
 
 ```bash
-npm i @inertify/nest
+npm i @asu-le/inertify-nest
 ```
 
 Example projects:

@@ -1,11 +1,12 @@
 {
-  "name": "@inertify/express",
+  "name": "@asu-le/inertify-express",
   "version": "0.1.0",
   "description": "",
   "source": "src/index.ts",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "types": "dist/index.d.ts",
+  "repository": "https://github.com/ASU-LE/inertify",
   "scripts": {
     "build": "npm run clean && microbundle --format esm,cjs",
     "clean": "rm -rf dist",
@@ -19,14 +20,14 @@
   "author": "Enkot",
   "license": "MIT",
   "peerDependencies": {
-    "@inertify/core": "*",
-    "express": "^4.0.0"
+    "@asu-le/inertify-core": "*",
+    "express": "^5.0.1"
   },
   "devDependencies": {
-    "@types/express": "^4.17.13",
-    "@types/express-session": "^1.17.4",
-    "@types/node": "^16.10.3",
-    "@inertify/core": "*",
-    "microbundle": "^0.14.0"
+    "@types/express": "^5.0.0",
+    "@types/express-session": "^1.18.1",
+    "@types/node": "^22.13.5",
+    "@asu-le/inertify-core": "*",
+    "microbundle": "^0.15.1"
   }
 }

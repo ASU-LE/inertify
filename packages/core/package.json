@@ -1,11 +1,12 @@
 {
-  "name": "@inertify/core",
+  "name": "@asu-le/inertify-core",
   "version": "0.1.0",
   "description": "",
   "source": "src/index.ts",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "types": "dist/index.d.ts",
+  "repository": "https://github.com/ASU-LE/inertify",
   "scripts": {
     "build": "npm run clean && microbundle --format esm,cjs",
     "clean": "rm -rf dist",
@@ -19,7 +20,7 @@
   "author": "Enkot",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^16.10.3",
-    "microbundle": "^0.14.0"
+    "@types/node": "^22.13.5",
+    "microbundle": "^0.15.1"
   }
 }

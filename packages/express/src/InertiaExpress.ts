@@ -1,5 +1,5 @@
 import { Request, Response } from 'express'
-import { Inertia } from '@inertify/core'
+import { Inertia } from '@asu-le/inertify-core'
 
 export class InertiaExpress extends Inertia {
   constructor(protected req: Request, protected res: Response) {
