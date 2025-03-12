@@ -1,5 +1,5 @@
 {
-  "name": "@asu-le/inertify-nest",
+  "name": "@asule/inertify-nest",
   "version": "0.1.0",
   "description": "",
   "source": "src/index.ts",
@@ -17,7 +17,7 @@
     "inertia",
     "node"
   ],
-  "author": "Enkot",
+  "author": "asule",
   "license": "MIT",
   "dependencies": {
     "@types/express": "^5.0.0",

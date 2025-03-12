@@ -1,5 +1,5 @@
 {
-  "name": "@asu-le/inertify-express-flash",
+  "name": "@asule/inertify-express-flash",
   "version": "0.1.0",
   "description": "Improved flash massages for Express",
   "source": "src/index.ts",
@@ -18,7 +18,7 @@
     "inertify",
     "node"
   ],
-  "author": "Enkot",
+  "author": "asule",
   "license": "MIT",
   "peerDependencies": {
     "express": "^5.0.1"

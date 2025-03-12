@@ -1,5 +1,5 @@
 {
-  "name": "@asu-le/inertify-core",
+  "name": "@asule/inertify-core",
   "version": "0.1.0",
   "description": "",
   "source": "src/index.ts",
@@ -17,7 +17,7 @@
     "inertia",
     "node"
   ],
-  "author": "Enkot",
+  "author": "asule",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.13.5",
